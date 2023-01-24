@@ -11,8 +11,10 @@ This project is split into two teams with the following team members:
    </ul> 
 
 <h2> 2) Crowd Sourcing </h2>
+<ul>
    <li> Don Strong - strongd5@wwu.edu </li>
    <li> Katie Taylor - taylo230@wwu.edu </li>
    <li> Nikita Rana- ranan@wwu.edu </li>
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
+</ul>   
 
