@@ -24,6 +24,11 @@ body {
     margin-bottom: auto;
 }
 
+.header-nav img {
+    height:100px;
+    width: auto;
+}
+
 .nav-links{
     display: flex;
     text-decoration: none;
@@ -132,5 +137,10 @@ input[type=button], input[type=submit], input[type=reset] {
     color:#ffffff;
     font-size: 10pt;
     height:64px;
+}
+
+.footer img {
+    height:72px;
+    width: auto;
 }
 
