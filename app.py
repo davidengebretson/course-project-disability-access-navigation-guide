@@ -2,9 +2,18 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+LOCATIONS = [
+    "Communications Facility",
+    "Old Main",
+    "Bond Hall",
+    "Miller Hall",
+    "Nash Hall",
+    "Viking Union",
+]
+
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", locations=LOCATIONS)
 
 @app.route("/about")
 def about():

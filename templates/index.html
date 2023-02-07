@@ -14,20 +14,24 @@
 
         <div class="upload-container">
             <div class="upload-box">
-                <form action="">
+                <form action="" method="POST">
                     <label for="entry-date">Today's Date:</label>
-                    <input type="date" id="entry-date" name="entry-date">
+                    <input type="date" id="entry-date" name="entry-date" autofocus>
 
-                    <label for="location">Location: </label>
-                    <input type="text" id="location" name="location">
-
-                    
+                    <select name="location">
+                        <option disable selected>Location</option>
+                        {% for location in locations %}
+                            <option> {{ location }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                       
                     <label class="custom-file-upload">
-                        <input type="file" id="myFile" name="filename">
+                        <input type="file" id="filename" name="filename">
                     </label>
 
                     <label for="description">Description:</label>
-                    <input type="textarea" id="location" name="location">
+                    <input type="textarea" id="desc" name="desc" placeholder="Enter any additional details here...">
 
                     <input type="submit"></button>
 
