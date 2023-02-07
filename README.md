@@ -18,3 +18,11 @@ This project is split into two teams with the following team members:
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
 </ul>   
 
+<h4> To run this app: </h4>
+<ol>
+   <li> Clone repo to local directory </li>
+   <li> cd dang-group </li>
+   <li> flask run </li>
+</ol>
+
+
