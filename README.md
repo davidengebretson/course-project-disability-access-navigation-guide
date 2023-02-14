@@ -18,11 +18,18 @@ This project is split into two teams with the following team members:
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
 </ul>   
 
+<h4> Dependencies </h4>
+<ul>
+   <li> Python </li>
+   <li> Flask </li>
+</ul>
+
 <h4> To run this app: </h4>
 <ol>
    <li> Clone repo to local directory </li>
-   <li> cd dang-group </li>
+   <li> cd course-project-disability-access-navigation-guide </li>
    <li> flask run </li>
+   <li> Open your web browser and navigate to localhost:5000 </li>
 </ol>
 
 
