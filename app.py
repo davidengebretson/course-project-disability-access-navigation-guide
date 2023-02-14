@@ -26,3 +26,16 @@ def contact():
 @app.route("/map")
 def map():
     return render_template("map.html")
+
+#Filtering Nav#
+@app.route("/northcampus")
+def northcampus():
+    return render_template("campnav/northcampus.html")
+
+@app.route("/midcampus")
+def midcampus():
+    return render_template("campnav/midcampus.html")
+
+@app.route("/southcampus")
+def southcampus():
+    return render_template("campnav/southcampus.html")

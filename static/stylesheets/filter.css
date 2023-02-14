@@ -33,3 +33,11 @@ html, body {
     text-align: center;
 }
 
+#center{
+    position: relative;
+    margin: 0 auto;
+    /*margin: auto;
+    width: 50%;*/
+
+}
+
