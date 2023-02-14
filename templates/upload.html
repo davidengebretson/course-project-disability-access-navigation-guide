@@ -1,0 +1,40 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+<title>Disability Access Navigation Guide - Upload</title>
+<link rel="stylesheet" href="../static/stylesheets/upload.css">
+        
+{% endblock %}
+
+{% block content %}
+
+        <div class="upload-container">
+            <div class="upload-box">
+                <form action="upload_status" method="POST">
+                    <label for="entry-date">Today's Date:</label>
+                    <input type="date" id="entry-date" name="entry-date" autofocus required>
+
+                    <select name="location" required>
+                        <option disable selected>Location</option>
+                        {% for location in locations %}
+                            <option> {{ location }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                       
+                    <label class="custom-file-upload">
+                        <input type="file" id="filename" name="filename" >
+                    </label>
+
+                    <label for="desc">Description:</label>
+                    <input type="textarea" id="desc" name="desc" placeholder="Enter any additional details here..." required>
+
+                    <input type="submit"></button>
+
+                </form>
+            </div>
+        </div>
+
+
+
+{% endblock %}
