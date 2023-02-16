@@ -53,6 +53,31 @@ def bondhall():
 @app.route("/arntzenhall")
 def arntzenhall():
     return render_template("campnav/midcampusnav/arntzenhall.html")
+@app.route("/biologybuilding")
+def biologybuilding():
+    return render_template("campnav/midcampusnav/biologybuilding.html")
+@app.route("/environmentalscience")
+def environmentalscience():
+    return render_template("campnav/midcampusnav/environmentalscience.html")
+@app.route("/fineartsbuilding")
+def fineartsbuilding():
+    return render_template("campnav/midcampusnav/fineartsbuilding.html")
+@app.route("/morsehall")
+def morsehall():
+    return render_template("campnav/midcampusnav/morsehall.html")
+@app.route("/parkshall")
+def parkshall():
+    return render_template("campnav/midcampusnav/parkshall.html")
+@app.route("/rossengineeringtech")
+def rossengineeringtech():
+    return render_template("campnav/midcampusnav/rossengineeringtech.html")
+@app.route("/sciencelecturebuilding")
+def sciencelecturebuilding():
+    return render_template("campnav/midcampusnav/sciencelecturebuilding.html")
+@app.route("/interdiciplinaryscience")
+def sinterdiciplinaryscience():
+    return render_template("campnav/midcampusnav/interdiciplinaryscience.html")
+
 #Arntzenhall
 @app.route("/ah1")
 def ah1():
