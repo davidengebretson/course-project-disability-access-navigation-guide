@@ -44,6 +44,12 @@ def midcampus():
 def southcampus():
     return render_template("campnav/southcampus.html")
 
+#Midcampus#
+@app.route("/arntzenhall")
+def arntzenhall():
+    return render_template("campnav/midcampusnav/arntzenhall.html")
+
+
 @app.route("/upload_status", methods=['POST'])
 def checkUpload():
     if request.form.get('entry-date') and request.form.get('location') and request.form.get('desc'):
