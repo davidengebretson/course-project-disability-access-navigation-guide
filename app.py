@@ -56,3 +56,16 @@ def checkUpload():
         return render_template("success.html")
     else:
         return render_template("failure.html")
+
+#SouthCampus
+@app.route("/academiceast")
+def academiceast():
+    return render_template("campnav/southcampusnav/academiceast.html")
+
+@app.route("/academicwest")
+def academicwest():
+    return render_template("campnav/southcampusnav/academicwest.html")
+
+@app.route("/communicationsfacility")
+def communicationsfacility():
+    return render_template("campnav/southcampusnav/communicationsfacility.html")

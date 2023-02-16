@@ -34,10 +34,10 @@ html, body {
 }
 
 #center{
+    display: flex;
+    justify-content: center;
     position: relative;
     margin: 0 auto;
-    /*margin: auto;
-    width: 50%;*/
 
 }
 
