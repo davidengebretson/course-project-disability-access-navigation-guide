@@ -44,6 +44,11 @@ def midcampus():
 def southcampus():
     return render_template("campnav/southcampus.html")
 
+#Northcampus#
+@app.route("/bondhall")
+def bondhall():
+    return render_template("campnav/northcampusnav/bondhall.html")
+
 #Midcampus#
 @app.route("/arntzenhall")
 def arntzenhall():
