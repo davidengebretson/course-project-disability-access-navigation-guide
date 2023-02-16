@@ -3,7 +3,6 @@ html body{
     width: 100vw;
     height: 100vh;
     margin: 0;
-    /*overflow:hidden;*/
 }
 
 body {
@@ -71,6 +70,7 @@ a {
 }
 
 .footer img {
-    height:72px;
+    height:48px;
     width: auto;
+    padding-right: 12px;
 }
