@@ -121,7 +121,7 @@ def checkUpload():
     else:
         return render_template("failure.html")
 
-#SouthCampus
+#SouthCampus#
 @app.route("/academiceast")
 def academiceast():
     return render_template("campnav/southcampusnav/academiceast.html")
@@ -133,3 +133,24 @@ def academicwest():
 @app.route("/communicationsfacility")
 def communicationsfacility():
     return render_template("campnav/southcampusnav/communicationsfacility.html")
+
+#CF Halls#
+@app.route("/cfbasement")
+def cfbasement():
+    return render_template("campnav/southcampusnav/cffloors/cfbasement.html")
+@app.route("/cf1")
+def cf1():
+    return render_template("campnav/southcampusnav/cffloors/cf1.html")
+@app.route("/cf2")
+def cf2():
+    return render_template("campnav/southcampusnav/cffloors/cf2.html")
+@app.route("/cf3")
+def cf3():
+    return render_template("campnav/southcampusnav/cffloors/cf3.html")
+@app.route("/cf4")
+def cf4():
+    return render_template("campnav/southcampusnav/cffloors/cf4.html")
+
+@app.route("/sample")
+def sample():
+    return render_template("campnav/sampleroom.html")
