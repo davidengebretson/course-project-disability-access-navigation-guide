@@ -12,11 +12,11 @@ This project is split into two teams with the following team members:
    <li> Ryan Rapoport, rapopor@wwu.edu </li>
    </ul>
 
-   <h5> Features Implemented: </h5>
+<h5> Features Implemented: </h5>
    <ul>
    </ul>
 
-   <h5> To do: </h5>
+<h5> To Do: </h5>
    <ul>
    </ul>
 
@@ -30,7 +30,7 @@ This project is split into two teams with the following team members:
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
 </ul>
 
-   <h5> Features Implemented: </h5>
+<h5> Features Implemented: </h5>
    <ul>
    <li> Home page with navbar, main content page for navigation, footer with external reference to GutHub project. </li>
    <li> Upload form to capture data from users. </li>
@@ -44,7 +44,7 @@ This project is split into two teams with the following team members:
    <li> Redesign data upload success and failure pages </li>
    </ul>
 
-   <p>Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf"</p>
+<p>Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf"</p>
 
 <p></p>
 
