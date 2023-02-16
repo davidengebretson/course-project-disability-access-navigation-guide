@@ -41,3 +41,13 @@ html, body {
 
 }
 
+.info{
+    background-color: #003f87;
+    margin: 10px;
+    padding: 100px;
+}
+
+.info p{
+    color: white;
+}
+
