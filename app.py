@@ -49,6 +49,41 @@ def southcampus():
 def bondhall():
     return render_template("campnav/northcampusnav/bondhall.html")
 
+@app.route("/carvergym")
+def carvergym():
+    return render_template("campnav/northcampusnav/carvergym.html")
+
+@app.route("/collegehall")
+def collegehall():
+    return render_template("campnav/northcampusnav/collegehall.html")
+
+@app.route("/fraserhall")
+def fraserhall():
+    return render_template("campnav/northcampusnav/fraserhall.html")
+
+@app.route("/haggardhall")
+def haggardhall():
+    return render_template("campnav/northcampusnav/haggardhall.html")
+
+@app.route("/humanitiesbuilding")
+def humanitiesbuilding():
+    return render_template("campnav/northcampusnav/humanitiesbuilding.html")
+
+@app.route("/millerhall")
+def millerhall():
+    return render_template("campnav/northcampusnav/millerhall.html")
+
+@app.route("/oldmain")
+def oldmain():
+    return render_template("campnav/northcampusnav/oldmain.html")
+
+@app.route("/performingartscenter")
+def performingartscenter():
+    return render_template("campnav/northcampusnav/performingartscenter.html")
+
+@app.route("/wilsonlibrary")
+def wilsonlibrary():
+    return render_template("campnav/northcampusnav/wilsonlibrary.html")
 #Midcampus#
 @app.route("/arntzenhall")
 def arntzenhall():
