@@ -48,7 +48,31 @@ def southcampus():
 @app.route("/arntzenhall")
 def arntzenhall():
     return render_template("campnav/midcampusnav/arntzenhall.html")
-
+#Arntzenhall
+@app.route("/ah1")
+def ah1():
+    return render_template("campnav/midcampusnav/arntzenhall/ah1.html")
+@app.route("/ah2")
+def ah2():
+    return render_template("campnav/midcampusnav/arntzenhall/ah2.html")
+@app.route("/ah3")
+def ah3():
+    return render_template("campnav/midcampusnav/arntzenhall/ah3.html")
+@app.route("/ah4")
+def ah4():
+    return render_template("campnav/midcampusnav/arntzenhall/ah4.html")
+@app.route("/ah5")
+def ah5():
+    return render_template("campnav/midcampusnav/arntzenhall/ah5.html")
+@app.route("/basement")
+def basement():
+    return render_template("campnav/midcampusnav/arntzenhall/basement.html")
+@app.route("/concourse")
+def consourse():
+    return render_template("campnav/midcampusnav/arntzenhall/concourse.html")
+@app.route("/penthouse")
+def penthouse():
+    return render_template("campnav/midcampusnav/arntzenhall/penthouse.html")
 
 @app.route("/upload_status", methods=['POST'])
 def checkUpload():
