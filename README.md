@@ -12,6 +12,16 @@ This project is split into two teams with the following team members:
    <li> Ryan Rapoport, rapopor@wwu.edu </li>
    </ul>
 
+<h5> Contributions <h5>
+   <dl>
+      <dt>Emma Geary</dt>
+      <dd>Created filter.css, implemented building lists, implemented sample classroom, implemented all South Campus buildings and related content</dd>
+      <dt>Benjamin Clay</dt>
+      <dd>Implemented Mid Campus information</dd>
+      <dt>Ryan Rapoport</dt>
+      <dd>Implemented North Campus information</dd>
+   </dl>
+
 <h5> Features Implemented: </h5>
    <ul>
    <li> Filtering done by region and building
@@ -24,7 +34,7 @@ This project is split into two teams with the following team members:
    <ul>
    <li> Finish implementing classrooms for relevant buildings
    <li> Add accurate images with alt text for all buildings
-   <li> Finish Communications Facility information in its entirity
+   <li> Finish Communications Facility information in its entirety
    </ul>
 
 <p></p>
