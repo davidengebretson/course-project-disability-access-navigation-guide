@@ -14,10 +14,17 @@ This project is split into two teams with the following team members:
 
 <h5> Features Implemented: </h5>
    <ul>
+   <li> Filtering done by region and building
+   <li> All pages for buildings include images (placeholders in some cases)
+   <li> Communications Facility floors, complete with basement classrooms listed
+   <li> Sample classroom information page created
    </ul>
 
 <h5> To Do: </h5>
    <ul>
+   <li> Finish implementing classrooms for relevant buildings
+   <li> Add accurate images with alt text for all buildings
+   <li> Finish Communications Facility information in its entirity
    </ul>
 
 <p></p>
