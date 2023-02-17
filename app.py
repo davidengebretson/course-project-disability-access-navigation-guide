@@ -138,6 +138,9 @@ def consourse():
 @app.route("/penthouse")
 def penthouse():
     return render_template("campnav/midcampusnav/arntzenhall/penthouse.html")
+@app.route("/samplefloor")
+def samplefloor():
+    return render_template("campnav/samplefloor.html")
 
 @app.route("/upload_status", methods=['POST'])
 def checkUpload():
