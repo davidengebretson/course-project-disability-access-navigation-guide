@@ -17,7 +17,7 @@ This project is split into two teams with the following team members:
       <dt>Emma Geary</dt>
       <dd>Created filter.css, implemented building lists, implemented sample classroom, implemented all South Campus buildings and related content</dd>
       <dt>Benjamin Clay</dt>
-      <dd>Implemented Mid Campus information</dd>
+      <dd>Implemented Mid Campus information (Region buildings, pictures, alt-text, buttons, and samplefloor page)</dd>
       <dt>Ryan Rapoport</dt>
       <dd>Implemented North Campus information</dd>
    </dl>
