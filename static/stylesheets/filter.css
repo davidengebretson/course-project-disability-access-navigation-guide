@@ -41,13 +41,24 @@ html, body {
 
 }
 
-.info{
+#info{
     background-color: #003f87;
     margin: 10px;
-    padding: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.info p{
-    color: white;
+dl {
+    color:white;
+    font-size: 30px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
 }
 
