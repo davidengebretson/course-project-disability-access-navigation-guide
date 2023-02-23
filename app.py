@@ -162,7 +162,7 @@ def academicwest():
 def communicationsfacility():
     return render_template("campnav/southcampusnav/communicationsfacility.html")
 
-#CF Halls#
+#CF Floors#
 @app.route("/cfbasement")
 def cfbasement():
     return render_template("campnav/southcampusnav/cffloors/cfbasement.html")
@@ -178,6 +178,42 @@ def cf3():
 @app.route("/cf4")
 def cf4():
     return render_template("campnav/southcampusnav/cffloors/cf4.html")
+
+
+#SL Floors#
+@app.route("/sl1")
+def sl1():
+    return render_template("campnav/midcampusnav/slfloors/sl1.html")
+@app.route("/sl2")
+def sl2():
+    return render_template("campnav/midcampusnav/slfloors/sl2.html")
+
+
+#MH Floors#
+@app.route("/mhbasement")
+def mhbasement():
+    return render_template("campnav/northcampusnav/mhfloors/mhbasement.html")
+@app.route("/mh1")
+def mh1():
+    return render_template("campnav/northcampusnav/mhfloors/mh1.html")
+@app.route("/mh2")
+def mh2():
+    return render_template("campnav/northcampusnav/mhfloors/mh2.html")
+@app.route("/mh3")
+def mh3():
+    return render_template("campnav/northcampusnav/mhfloors/mh3.html")
+
+
+#Rooms for Testing#
+@app.route("/sample1")
+def sample1():
+    return render_template("campnav/sampleclass1.html")
+@app.route("/sample2")
+def sample2():
+    return render_template("campnav/sampleclass2.html")
+@app.route("/sample3")
+def sample3():
+    return render_template("campnav/sampleclass3.html")
 
 @app.route("/sample")
 def sample():

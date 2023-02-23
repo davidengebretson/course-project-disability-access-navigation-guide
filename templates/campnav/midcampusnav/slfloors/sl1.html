@@ -1,0 +1,53 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+
+<title>Campus Map</title>
+<link rel="stylesheet" href="../static/stylesheets/filter.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Disability Access Navigation Guide</h1>
+<h2>Science Lecture Building | Floor 1</h2>
+
+
+<div id="center">
+    <img src="static/images/sl1_floorplan.PNG" width = 800 height = 500  alt="A floorplan for SMATE's first floor, detailing five lecture halls accessible from the main hallway along with some smaller rooms on the opposite side of the building.">
+</div>
+<br><br>
+
+<div class="row">
+    <a class="myButton" href="sample3">
+        <div class="column">
+            110
+        </div>
+    </a>
+    <a class="myButton" href="sample3">
+        <div class="column">
+            120
+        </div>
+    </a>
+    <a class="myButton" href="sample3">
+        <div class="column">
+            130
+        </div>
+    </a>
+</div>
+<div class="row">
+    <a class="myButton" href="sample3">
+        <div class="column">
+            140
+        </div>
+    </a>
+    <a class="myButton" href="sample3">
+        <div class="column">
+            150
+        </div>
+    </a>
+</div>
+
+<br><br><br><br>
+
+{% endblock %}

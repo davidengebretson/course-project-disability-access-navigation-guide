@@ -1,0 +1,39 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+
+<title>Campus Map</title>
+<link rel="stylesheet" href="../static/stylesheets/filter.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Disability Access Navigation Guide</h1>
+<h2 id="center">Room 420 in Communications Facility</h2>
+
+<div id="center">
+    <img src="static/images/class1.JPG" width = 800 height = 500  alt="A classrooom with two rows of desks, one on either side of the room, with a walkway in the middle. At the front of the class is a teaching desk and a blackboard on the wall.">
+</div>
+
+&nbsp;
+
+<div class="row" id="info">
+    <dl class="column" >
+        <dt>Automatic opening entryway?</dt>
+        <dd>No</dd>
+        <dt>Single or double door entryway?</dt>
+        <dd>Single</dd>
+        <dt>Rearrangable furniture?</dt>
+        <dd>Yes</dd>
+    </dl>
+    <dl class="column">
+        <dt>Where is the front of the room?</dt>
+        <dd>Straight from the main entrance</dd>
+        <dt>Overall Accessibility Level of Room:</dt>
+        <dd>Mostly accessible</dd>
+    </dl>
+</div>
+
+
+{% endblock %}
