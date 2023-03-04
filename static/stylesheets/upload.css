@@ -8,12 +8,12 @@ html body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-bottom:5rem
+    /* padding-bottom:5rem */
 }
 
 .upload-box {
-    height: 70%;
-    width: 40rem;
+    height: 70vh;
+    width: 40vw;
 }
 
 form {
