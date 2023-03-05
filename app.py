@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, flash, redirect
 
 app = Flask(__name__)
 
@@ -23,9 +23,10 @@ def about():
 def contact():
     return render_template("contact.html")
 
-@app.route("/map")
-def map():
+@app.route("/map", methods=['GET', 'POST'])
+def map(): 
     return render_template("map.html")
+
 
 @app.route("/upload")
 def upload():
