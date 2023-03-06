@@ -113,6 +113,17 @@ def bh4():
 def bh_pent():
     return render_template("campnav/northcampusnav/bhfloors/bh_pent.html")
 
+#CV Floors#
+@app.route("/cv1")
+def cv1():
+    return render_template("campnav/northcampusnav/cvfloors/cv1.html")
+@app.route("/cv2")
+def cv2():
+    return render_template("campnav/northcampusnav/cvfloors/cv2.html")
+@app.route("/cv3")
+def cv3():
+    return render_template("campnav/northcampusnav/cvfloors/cv3.html")
+
 #MH Floors#
 @app.route("/mhbasement")
 def mhbasement():
