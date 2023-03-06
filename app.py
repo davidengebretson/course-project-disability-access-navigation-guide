@@ -261,6 +261,23 @@ def cf405():
 def cf420():
     return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf420.html")
 
+#AI Floors
+@app.route("/ai1")
+def ai1():
+    return render_template("campnav/southcampusnav/aifloors/ai1.html")
+@app.route("/ai2")
+def ai2():
+    return render_template("campnav/southcampusnav/aifloors/ai2.html")
+@app.route("/ai3")
+def ai3():
+    return render_template("campnav/southcampusnav/aifloors/ai3.html")
+@app.route("/ai4")
+def ai4():
+    return render_template("campnav/southcampusnav/aifloors/ai4.html")
+@app.route("/ai5")
+def ai5():
+    return render_template("campnav/southcampusnav/aifloors/ai5.html")
+
 #SL Floors#
 @app.route("/sl1")
 def sl1():
