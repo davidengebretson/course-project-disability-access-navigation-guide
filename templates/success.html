@@ -7,4 +7,10 @@
 
 {% block content %}
 <h1>Your upload was successful.</h1>
+<h2>Data:</h2>
+<ul>
+    {% for key in entry %}
+        <li>{{entry[key]}}</li>
+    {% endfor %}
+</ul>
 {% endblock %}

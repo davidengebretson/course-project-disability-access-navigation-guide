@@ -1,4 +1,11 @@
 from flask import Flask, render_template, request, jsonify, flash, redirect
+import pymongo
+
+MONGO_URI = open("config.txt").read()
+client = pymongo.MongoClient(MONGO_URI)
+db = client['DANG-DB']
+data = db.get_collection("building-data")
+
 
 app = Flask(__name__)
 
@@ -34,8 +41,30 @@ def upload():
 
 @app.route("/upload_status", methods=['POST'])
 def checkUpload():
-    if request.form.get('entry-date') and request.form.get('location') and request.form.get('desc'):
-        return render_template("success.html")
+    date = request.form.get('entry-date')
+    location = request.form.get('location')
+    desc = request.form.get('desc')
+    file = request.form.get('file')
+        
+    # If all required fields are supplied, insert into db collection
+    if date and location and file and desc:
+        
+        data.insert_one({
+            "date": date,
+            "location": location,
+            "filename": file,
+            "desc": desc
+        })
+        
+        # retrieve data just inserted
+        entry = data.find_one({
+            "date": date,
+            "location": location,
+            "filename":file,
+            "desc": desc
+        })
+        print(entry)
+        return render_template("success.html", entry = entry)
     else:
         return render_template("failure.html")
 
