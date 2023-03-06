@@ -490,9 +490,52 @@ def aw3():
 def aw4():
     return render_template("campnav/southcampusnav/awfloors/aw4.html")
 
-
-
-
+#AW Classrooms#
+@app.route("/aw203")
+def aw203():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw203.html")
+@app.route("/aw204")
+def aw204():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw204.html")
+@app.route("/aw205")
+def aw205():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw205.html")
+@app.route("/aw210")
+def aw210():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw210.html")
+@app.route("/aw302")
+def aw302():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw302.html")
+@app.route("/aw303")
+def aw303():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw303.html")
+@app.route("/aw304")
+def aw304():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw304.html")
+@app.route("/aw305")
+def aw305():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw305.html")
+@app.route("/aw306")
+def aw306():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw306.html")
+@app.route("/aw402")
+def aw402():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw402.html")
+@app.route("/aw404")
+def aw404():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw404.html")
+@app.route("/aw406")
+def aw406():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw406.html")
+@app.route("/aw408")
+def aw408():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw408.html")
+@app.route("/aw410")
+def aw410():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw410.html")
+@app.route("/aw412")
+def aw412():
+    return render_template("campnav/southcampusnav/awfloors/aw_classrooms/aw412.html")
 #Rooms for Testing#
 @app.route("/sample1")
 def sample1():
