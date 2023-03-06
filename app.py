@@ -278,6 +278,17 @@ def ai4():
 def ai5():
     return render_template("campnav/southcampusnav/aifloors/ai5.html")
 
+#AW Floors
+@app.route("/aw2")
+def aw2():
+    return render_template("campnav/southcampusnav/awfloors/aw2.html")
+@app.route("/aw3")
+def aw3():
+    return render_template("campnav/southcampusnav/awfloors/aw3.html")
+@app.route("/aw4")
+def aw4():
+    return render_template("campnav/southcampusnav/awfloors/aw4.html")
+
 #SL Floors#
 @app.route("/sl1")
 def sl1():

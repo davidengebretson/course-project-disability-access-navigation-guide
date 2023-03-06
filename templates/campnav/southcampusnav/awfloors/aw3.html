@@ -1,0 +1,52 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+
+<title>Campus Map</title>
+<link rel="stylesheet" href="../static/stylesheets/filter.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Disability Access Navigation Guide</h1>
+<h2>Academic West | Floor 3</h2>
+
+<div id="center">
+    <img src="static/images/floorplans/aw_floorplan_3.PNG" width = 800 height = 500  alt="A floorplan for Academic West's third floor.">
+</div>
+<br><br>
+
+<div class="row">
+    <a class="myButton" href="aw302">
+        <div class="column">
+            302
+        </div>
+    </a>
+    <a class="myButton" href="aw303">
+        <div class="column">
+            303
+        </div>
+    </a>
+    <a class="myButton" href="aw304">
+        <div class="column">
+            304
+        </div>
+    </a>
+</div>
+<div class="row">
+    <a class="myButton" href="aw305">
+        <div class="column">
+            305
+        </div>
+    </a>
+    <a class="myButton" href="aw306">
+        <div class="column">
+            306
+        </div>
+    </a>
+</div>
+
+<br><br><br><br>
+
+{% endblock %}
