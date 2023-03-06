@@ -3,7 +3,7 @@ from werkzeug.utils import secure_filename
 import pymongo
 import os
 
-
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 MONGO_URI = open("config.txt").read()
 client = pymongo.MongoClient(MONGO_URI)
 db = client['DANG-DB']
@@ -13,6 +13,7 @@ app = Flask(__name__)
 
 upload_folder = os.path.join('static', 'uploads')
 app.config['UPLOAD'] = upload_folder
+print(os.path.join(APP_ROOT, app.config['UPLOAD']))
 
 LOCATIONS = [
     "Communications Facility",
@@ -54,6 +55,10 @@ def checkUpload():
         
     # If all required fields are supplied, insert into db collection
     if date and location and f.filename and desc:
+        
+        if not os.path.isdir(os.path.join(APP_ROOT, app.config['UPLOAD'])):
+            os.mkdir(os.path.join(APP_ROOT, app.config['UPLOAD']))
+        
         f = request.files['file']
         fname = secure_filename(f.filename)
         f.save(os.path.join(app.config['UPLOAD'], fname))
