@@ -180,6 +180,86 @@ def cf3():
 def cf4():
     return render_template("campnav/southcampusnav/cffloors/cf4.html")
 
+#CF Classrooms#
+@app.route("/cf023")
+def cf023():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf023.html")
+@app.route("/cf024")
+def cf024():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf024.html")
+@app.route("/cf025")
+def cf025():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf025.html")
+@app.route("/cf026")
+def cf026():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf026.html")
+
+@app.route("/cf105")
+def cf105():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf105.html")
+@app.route("/cf110")
+def cf110():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf110.html")
+@app.route("/cf115")
+def cf115():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf115.html")
+@app.route("/cf120")
+def cf120():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf120.html")
+@app.route("/cf125")
+def cf125():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf125.html")
+@app.route("/cf161")
+def cf161():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf161.html")
+@app.route("/cf162")
+def cf162():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf162.html")
+@app.route("/cf163")
+def cf163():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf163.html")
+@app.route("/cf164")
+def cf164():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf164.html")
+@app.route("/cf167")
+def cf167():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf167.html")
+
+@app.route("/cf224")
+def cf224():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf224.html")
+@app.route("/cf225")
+def cf225():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf225.html")
+@app.route("/cf226")
+def cf226():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf226.html")
+@app.route("/cf227")
+def cf227():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf227.html")
+@app.route("/cf229")
+def cf229():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf229.html")
+@app.route("/cf231")
+def cf231():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf231.html")
+
+@app.route("/cf312")
+def cf312():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf312.html")
+@app.route("/cf314")
+def cf314():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf314.html")
+@app.route("/cf316")
+def cf316():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf316.html")
+
+@app.route("/cf405")
+def cf405():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf405.html")
+@app.route("/cf420")
+def cf420():
+    return render_template("campnav/southcampusnav/cffloors/cf_classrooms/cf420.html")
 
 #SL Floors#
 @app.route("/sl1")
