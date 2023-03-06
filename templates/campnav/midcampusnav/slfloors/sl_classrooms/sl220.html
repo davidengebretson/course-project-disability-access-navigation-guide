@@ -1,0 +1,46 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+
+<title>Campus Map</title>
+<link rel="stylesheet" href="../static/stylesheets/filter.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Disability Access Navigation Guide</h1>
+<h2 id="center">Room 220 in SMATE</h2>
+
+<div id="center">
+    <img src="static/images/classrooms/sl220.jpg" width = 500 height = 800  alt="A very large room containing tables, bookshelves, whiteboards, and other classroom objects. It does not look so much like a classroom as it does a dicussion area.">
+</div>
+
+&nbsp;
+
+<div class="row" id="info">
+    <dl class="column" >
+        <dt>Automatic opening entryway?</dt>
+        <dd>No</dd>
+        <dt>Single or double door entryway?</dt>
+        <dd>Single</dd>
+        <dt>Rearrangable furniture?</dt>
+        <dd>Yes, with effort</dd>
+    </dl>
+    <dl class="column" >
+        <dt>Is the floor carpeted?</dt>
+        <dd>Yes</dd>
+        <dt>Are there any stairs or steps in the room?</dt>
+        <dd>No</dd>
+        <dt>Distance from front of room to back of room?</dt>
+        <dd>Large</dd>
+    </dl>
+    <dl class="column">
+        <dt>Where is the front of the room?</dt>
+        <dd>No explicit front of room</dd>
+        <dt>Are there narrow walkways?</dt>
+        <dd>No</dd>
+    </dl>
+</div>
+
+{% endblock %}

@@ -32,6 +32,13 @@ def map():
 def upload():
     return render_template("upload.html", locations=LOCATIONS)
 
+@app.route("/upload_status", methods=['POST'])
+def checkUpload():
+    if request.form.get('entry-date') and request.form.get('location') and request.form.get('desc'):
+        return render_template("success.html")
+    else:
+        return render_template("failure.html")
+
 #Filtering Nav#
 @app.route("/northcampus")
 def northcampus():
@@ -85,6 +92,21 @@ def performingartscenter():
 @app.route("/wilsonlibrary")
 def wilsonlibrary():
     return render_template("campnav/northcampusnav/wilsonlibrary.html")
+
+#MH Floors#
+@app.route("/mhbasement")
+def mhbasement():
+    return render_template("campnav/northcampusnav/mhfloors/mhbasement.html")
+@app.route("/mh1")
+def mh1():
+    return render_template("campnav/northcampusnav/mhfloors/mh1.html")
+@app.route("/mh2")
+def mh2():
+    return render_template("campnav/northcampusnav/mhfloors/mh2.html")
+@app.route("/mh3")
+def mh3():
+    return render_template("campnav/northcampusnav/mhfloors/mh3.html")
+
 #Midcampus#
 @app.route("/arntzenhall")
 def arntzenhall():
@@ -143,12 +165,46 @@ def penthouse():
 def samplefloor():
     return render_template("campnav/samplefloor.html")
 
-@app.route("/upload_status", methods=['POST'])
-def checkUpload():
-    if request.form.get('entry-date') and request.form.get('location') and request.form.get('desc'):
-        return render_template("success.html")
-    else:
-        return render_template("failure.html")
+#SL Floors#
+@app.route("/sl1")
+def sl1():
+    return render_template("campnav/midcampusnav/slfloors/sl1.html")
+@app.route("/sl2")
+def sl2():
+    return render_template("campnav/midcampusnav/slfloors/sl2.html")
+
+#SL Classrooms#
+@app.route("/sl110")
+def sl110():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl110.html")
+@app.route("/sl120")
+def sl120():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl120.html")
+@app.route("/sl130")
+def sl130():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl130.html")
+@app.route("/sl140")
+def sl140():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl140.html")
+@app.route("/sl150")
+def sl150():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl150.html")
+@app.route("/sl210")
+def sl210():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl210.html")
+@app.route("/sl220")
+def sl220():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl220.html")
+@app.route("/sl230")
+def sl230():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl230.html")
+@app.route("/sl240n")
+def sl240n():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl240n.html")
+@app.route("/sl240s")
+def sl240s():
+    return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl240s.html")
+
 
 #SouthCampus#
 @app.route("/academiceast")
@@ -289,28 +345,7 @@ def aw3():
 def aw4():
     return render_template("campnav/southcampusnav/awfloors/aw4.html")
 
-#SL Floors#
-@app.route("/sl1")
-def sl1():
-    return render_template("campnav/midcampusnav/slfloors/sl1.html")
-@app.route("/sl2")
-def sl2():
-    return render_template("campnav/midcampusnav/slfloors/sl2.html")
 
-
-#MH Floors#
-@app.route("/mhbasement")
-def mhbasement():
-    return render_template("campnav/northcampusnav/mhfloors/mhbasement.html")
-@app.route("/mh1")
-def mh1():
-    return render_template("campnav/northcampusnav/mhfloors/mh1.html")
-@app.route("/mh2")
-def mh2():
-    return render_template("campnav/northcampusnav/mhfloors/mh2.html")
-@app.route("/mh3")
-def mh3():
-    return render_template("campnav/northcampusnav/mhfloors/mh3.html")
 
 
 #Rooms for Testing#
