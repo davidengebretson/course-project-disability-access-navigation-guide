@@ -11,21 +11,19 @@
         <div class="upload-container">
             <div class="upload-box">
                 <form action="upload_status" method="POST" enctype="multipart/form-data">
-                    <label for="entry-date">Today's Date:</label>
+                    <label for="entry-date">Entry Date:</label>
                     <input type="date" id="entry-date" name="entry-date" autofocus required>
 
+                    <label for="entry-date">Campus Location:</label>
                     <select name="location" required>
-                        <option disable selected>Location</option>
                         {% for location in locations %}
                             <option> {{ location }}
                             </option>
                         {% endfor %}
                     </select>
                        
-                    <label class="custom-file-upload">
-                        <input type="file" id="file" name="file" required>
-                    </label>
-
+                    <label for="file">Screenshot (Supported types: JPG, PNG, JPEG): </label>
+                    <input class="custom-file-upload" type="file" id="file" name="file" required>
                     <label for="desc">Description:</label>
                     <input type="textarea" id="desc" name="desc" placeholder="Enter any additional details here..." required>
 
