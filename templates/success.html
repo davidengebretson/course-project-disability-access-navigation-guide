@@ -6,12 +6,14 @@
 {% endblock %}
 
 {% block content %}
-<h1>Your upload was successful.</h1>
-<h2>Data:</h2>
-<ul>
-    {% for key in entry %}
-        <li>{{entry[key]}}</li>
-    {% endfor %}
-</ul>
-<img src="{{ file }}" alt="" srcset="" style="max-width: 15%">
+<div class="result"><h1>Your upload was successful.</h1>
+    <h2>Data:</h2>
+    <ul>
+        {% for key in entry %}
+            <li>{{ key + ":" + entry[key]}}</li>
+        {% endfor %}
+    </ul>
+    <img src="{{ file }}" alt="{{ alt }}" srcset="" style="max-width: 15%">
+</div>
+
 {% endblock %}

@@ -16,12 +16,30 @@ app.config['UPLOAD'] = upload_folder
 print(os.path.join(APP_ROOT, app.config['UPLOAD']))
 
 LOCATIONS = [
-    "Communications Facility",
-    "Old Main",
+    "Academic East",
+    "Academic West",
+    "Artzen Hall",
+    "Biology Building",
     "Bond Hall",
+    "Carver Gym",
+    "College Hall",
+    "Communications Facility",
+    "Environmental Science",
+    "Fine Arts Building",
+    "Fraser Hall",
+    "Haggard Hall",
+    "Humanities Building",
+    "Interdisciplinary Science",
     "Miller Hall",
+    "Morse Hall",
     "Nash Hall",
+    "Old Main",
+    "Parks Hall",
+    "Performing Arts Center",
+    "Ross Engineering Tech",
+    "Science LEcture Building",
     "Viking Union",
+    "Wilson Library"
 ]
 
 @app.route("/")
@@ -71,14 +89,14 @@ def checkUpload():
         })
         
         # retrieve data just inserted
-        entry = data.find_one({
+        res = data.find_one({
             "date": date,
             "location": location,
             "filename":f.filename,
             "desc": desc
         })
-        print(entry)
-        return render_template("success.html", entry = entry, file = os.path.join(app.config['UPLOAD'], fname))
+        
+        return render_template("success.html", entry = {"date": res['date'], "location": res['location'], 'filename':res['filename'], 'desc': res['desc']}, file = os.path.join(app.config['UPLOAD'], fname), alt=desc)
     else:
         return render_template("failure.html")
 

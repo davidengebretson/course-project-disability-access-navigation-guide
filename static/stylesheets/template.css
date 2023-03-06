@@ -53,8 +53,10 @@ a {
     flex-direction: column;
 }
 
-.content h1, h2, p {
+.content h1, h2, p, ul, li, img{
     padding: 0vh 0vw 0vh 5vw;
+    text-decoration: none;
+    list-style: none;
 }
 
 .footer {
