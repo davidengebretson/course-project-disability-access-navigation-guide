@@ -1,7 +1,7 @@
 
-html body {
-    /*overflow:hidden;*/
-}
+/* html body {
+    overflow:hidden;} */
+
 
 .content {
     justify-content: center;
@@ -29,8 +29,8 @@ html body {
 .button-text {
     padding: 0px;
     text-align: center;
-    font-size: 50px;
-    border-radius: 10%;
-    width:100%;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 50%;
 }
 
