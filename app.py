@@ -124,6 +124,56 @@ def cv2():
 def cv3():
     return render_template("campnav/northcampusnav/cvfloors/cv3.html")
 
+#CH Floors#
+@app.route("/ch_base")
+def ch_base():
+    return render_template("campnav/northcampusnav/chfloors/ch_base.html")
+@app.route("/ch1")
+def ch1():
+    return render_template("campnav/northcampusnav/chfloors/ch1.html")
+@app.route("/ch2")
+def ch2():
+    return render_template("campnav/northcampusnav/chfloors/ch2.html")
+@app.route("/ch3")
+def ch3():
+    return render_template("campnav/northcampusnav/chfloors/ch3.html")
+
+#FR Floors#
+@app.route("/fr_base")
+def fr_base():
+    return render_template("campnav/northcampusnav/frfloors/fr_base.html")
+@app.route("/fr1")
+def fr1():
+    return render_template("campnav/northcampusnav/frfloors/fr1.html")
+@app.route("/fr2")
+def fr2():
+    return render_template("campnav/northcampusnav/frfloors/fr2.html")
+
+#HH Floors#
+@app.route("/hh1")
+def hh1():
+    return render_template("campnav/northcampusnav/hhfloors/hh1.html")
+@app.route("/hh2")
+def hh2():
+    return render_template("campnav/northcampusnav/hhfloors/hh2.html")
+@app.route("/hh3")
+def hh3():
+    return render_template("campnav/northcampusnav/hhfloors/hh3.html")
+@app.route("/hh_pent")
+def hh_pent():
+    return render_template("campnav/northcampusnav/hhfloors/hh_pent.html")
+
+#HU Floors#
+@app.route("/hu1")
+def hu1():
+    return render_template("campnav/northcampusnav/hufloors/hu1.html")
+@app.route("/hu2")
+def hu2():
+    return render_template("campnav/northcampusnav/hufloors/hu2.html")
+@app.route("/hu3")
+def hu3():
+    return render_template("campnav/northcampusnav/hufloors/hu3.html")
+
 #MH Floors#
 @app.route("/mhbasement")
 def mhbasement():
@@ -137,6 +187,60 @@ def mh2():
 @app.route("/mh3")
 def mh3():
     return render_template("campnav/northcampusnav/mhfloors/mh3.html")
+
+#OM Floors#
+@app.route("/om1")
+def om1():
+    return render_template("campnav/northcampusnav/omfloors/om1.html")
+@app.route("/om2")
+def om2():
+    return render_template("campnav/northcampusnav/omfloors/om2.html")
+@app.route("/om3")
+def om3():
+    return render_template("campnav/northcampusnav/omfloors/om3.html")
+@app.route("/om4")
+def om4():
+    return render_template("campnav/northcampusnav/omfloors/om4.html")
+@app.route("/om5")
+def om5():
+    return render_template("campnav/northcampusnav/omfloors/om5.html")
+
+#PAC Floors#
+@app.route("/pac_base")
+def pac_base():
+    return render_template("campnav/northcampusnav/pacfloors/pac_base.html")
+@app.route("/pac1")
+def pac1():
+    return render_template("campnav/northcampusnav/pacfloors/pac1.html")
+@app.route("/pac2")
+def pac2():
+    return render_template("campnav/northcampusnav/pacfloors/pac2.html")
+@app.route("/pac3")
+def pac3():
+    return render_template("campnav/northcampusnav/pacfloors/pac3.html")
+@app.route("/pac4")
+def pac4():
+    return render_template("campnav/northcampusnav/pacfloors/pac4.html")
+
+#WL Floors#
+@app.route("/wl1")
+def wl1():
+    return render_template("campnav/northcampusnav/wlfloors/wl1.html")
+@app.route("/wl2")
+def wl2():
+    return render_template("campnav/northcampusnav/wlfloors/wl2.html")
+@app.route("/wl3")
+def wl3():
+    return render_template("campnav/northcampusnav/wlfloors/wl3.html")
+@app.route("/wl4")
+def wl4():
+    return render_template("campnav/northcampusnav/wlfloors/wl4.html")
+@app.route("/wl5")
+def wl5():
+    return render_template("campnav/northcampusnav/wlfloors/wl5.html")
+@app.route("/wl6")
+def wl6():
+    return render_template("campnav/northcampusnav/wlfloors/wl6.html")
 
 #Midcampus#
 @app.route("/arntzenhall")
@@ -192,9 +296,20 @@ def consourse():
 @app.route("/penthouse")
 def penthouse():
     return render_template("campnav/midcampusnav/arntzenhall/penthouse.html")
-@app.route("/samplefloor")
-def samplefloor():
-    return render_template("campnav/samplefloor.html")
+
+#BI Floors#
+
+#ES Floors#
+
+#FA Floors#
+
+#IS Floors#
+
+#CB Floors#
+
+#PH Floors#
+
+#ET Floors#
 
 #SL Floors#
 @app.route("/sl1")
@@ -235,7 +350,6 @@ def sl240n():
 @app.route("/sl240s")
 def sl240s():
     return render_template("campnav/midcampusnav/slfloors/sl_classrooms/sl240s.html")
-
 
 #SouthCampus#
 @app.route("/academiceast")
@@ -393,3 +507,6 @@ def sample3():
 @app.route("/sample")
 def sample():
     return render_template("campnav/sampleroom.html")
+@app.route("/samplefloor")
+def samplefloor():
+    return render_template("campnav/samplefloor.html")
