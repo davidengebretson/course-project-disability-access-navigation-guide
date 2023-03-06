@@ -1,0 +1,47 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+
+<title>Campus Map</title>
+<link rel="stylesheet" href="../static/stylesheets/filter.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Disability Access Navigation Guide</h1>
+<h2>Room 203 in Academic West</h2>
+
+<div id="center">
+    <img src="static/images/classrooms/aw204" width = 800 height = 500  alt="A classroom multiple small black desks facing a whiteboard with a projector screen pulled down.">
+</div>
+
+&nbsp;
+
+<div class="row" id="info">
+    <dl class="column" >
+        <dt>Automatic opening entryway?</dt>
+        <dd>No</dd>
+        <dt>Single or double door entryway?</dt>
+        <dd>Single</dd>
+        <dt>Rearrangable furniture?</dt>
+        <dd>Yes</dd>
+    </dl>
+    <dl class="column" >
+        <dt>Is the floor carpeted?</dt>
+        <dd>Yes</dd>
+        <dt>Are there any stairs or steps in the room?</dt>
+        <dd>No</dd>
+        <dt>Distance from front of room to back of room?</dt>
+        <dd>Short</dd>
+    </dl>
+    <dl class="column">
+        <dt>Where is the front of the room?</dt>
+        <dd>Diagonal from the main entrance</dd>
+        <dt>Are there narrow walkways?</dt>
+        <dd>Yes</dd>
+    </dl>
+</div>
+
+
+{% endblock %}
