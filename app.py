@@ -93,6 +93,26 @@ def performingartscenter():
 def wilsonlibrary():
     return render_template("campnav/northcampusnav/wilsonlibrary.html")
 
+#BH Floors#
+@app.route("/bh1")
+def bh1():
+    return render_template("campnav/northcampusnav/bhfloors/bh1.html")
+@app.route("/bh_mez")
+def bh_mez():
+    return render_template("campnav/northcampusnav/bhfloors/bh_mez.html")
+@app.route("/bh2")
+def bh2():
+    return render_template("campnav/northcampusnav/bhfloors/bh2.html")
+@app.route("/bh3")
+def bh3():
+    return render_template("campnav/northcampusnav/bhfloors/bh3.html")
+@app.route("/bh4")
+def bh4():
+    return render_template("campnav/northcampusnav/bhfloors/bh4.html")
+@app.route("/bh_pent")
+def bh_pent():
+    return render_template("campnav/northcampusnav/bhfloors/bh_pent.html")
+
 #MH Floors#
 @app.route("/mhbasement")
 def mhbasement():

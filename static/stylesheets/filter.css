@@ -49,6 +49,15 @@ html, body {
     padding-right: 30px;
 }
 
+#subtitle {
+  color:white;
+}
+
+li {
+  color:white;
+  font-size: 25px;
+}
+
 dl {
     color:white;
     font-size: 30px;

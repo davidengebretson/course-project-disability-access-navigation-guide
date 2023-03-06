@@ -1,0 +1,59 @@
+{% extends "layout.html" %} 
+
+{% block header %}
+
+<title>Campus Map</title>
+<link rel="stylesheet" href="../static/stylesheets/filter.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Disability Access Navigation Guide</h1>
+<h2>Bond Hall | Floor 4</h2>
+
+<div id="center">
+    <img src="static/images/floorplans/bh_floorplan_4.PNG" width = 800 height = 500  alt="A floorplan for Bond Hall's fourth floor.">
+</div>
+<br><br>
+
+<div class="row">
+    <a class="myButton" href="sample1">
+        <div class="column">
+            400
+        </div>
+    </a>
+    <a class="myButton" href="sample2">
+        <div class="column">
+            401
+        </div>
+    </a>
+    <a class="myButton" href="sample1">
+        <div class="column">
+            404
+        </div>
+    </a>
+</div>
+
+<div class="row">
+    <a class="myButton" href="sample2">
+        <div class="column">
+            415
+        </div>
+    </a>
+    <a class="myButton" href="sample1">
+        <div class="column">
+            417
+        </div>
+    </a>
+    <a class="myButton" href="sample2">
+        <div class="column">
+            419
+        </div>
+    </a>
+</div>
+
+
+<br><br><br><br>
+
+{% endblock %}
