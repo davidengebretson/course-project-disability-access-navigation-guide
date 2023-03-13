@@ -35,7 +35,7 @@ This project is split into two teams with the following team members:
       <dt>Emma Geary</dt>
       <dd>Adding buildings accessibility information, finished SMATE and CF, added floorplans to remaining buildings, edited some aesthetic issues, fixed alt text, fixed page headers</dd>
       <dt>Benjamin Clay</dt>
-      <dd>Implemented search bar</dd>
+      <dd>Implemented basic search bar, finished linking MidCampus floor buttons to sample floor, and each floor to sample classroom</dd>
       <dt>Ryan Rapoport</dt>
       <dd>Implemented Academic West classrooms</dd>
    </dl>
