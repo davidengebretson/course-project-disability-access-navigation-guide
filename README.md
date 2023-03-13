@@ -32,7 +32,7 @@ This project is split into two teams with the following team members:
 
 <h5> Contributions R2<h5>
    <dl>
-      <dt>Emma Geary</dt>
+      <dt>Emma Geary</dt>https://dl.acm.org/doi/10.1145/2596695.2596715
       <dd>Adding buildings accessibility information, finished SMATE and CF, added floorplans to remaining buildings, edited some aesthetic issues, fixed alt text, fixed page headers</dd>
       <dt>Benjamin Clay</dt>
       <dd>Implemented basic search bar, finished linking MidCampus floor buttons to sample floor, and each floor to sample classroom</dd>
@@ -96,7 +96,7 @@ This project is split into two teams with the following team members:
    <li> Redesigned upload successful page to show user confirmation of uploaded data </li>
    </ul>
    
-      <h5> Contributions R2<h5>
+      <h5>Contributions R2<h5>
    <dl>
       <dt>Don Strong</dt>
       <dd>UI Bug fixes</dd>
@@ -105,7 +105,9 @@ This project is split into two teams with the following team members:
       <dd>Updated upload success page to provide upload confirmation.</dd>
       <dd>Configured/deployed on AWS for demo and public access.</dd>
       <dt>Katie Taylor</dt>
-      <dd></dd>
+      <dd>UI Bug fixes, e.g. fix layout arrangement on upload page</dd>
+      <dd>Conducted evaluations with two users</dd>
+      <dd>Documentation</dd>
       <dt>Nikita Rana</dt>
       <dd></dd>
       <dt>Thuan Nguyen</dt>
@@ -116,7 +118,7 @@ This project is split into two teams with the following team members:
    <ul>
    <li> Connect data visualization with latest changes to render data uploads.</li>
    </ul>
-<p>Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf"</p>
+<p>Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf" and "Disability Access Navigation Guide R2 Prototype -- Crowdsourcing Team.pdf"</p>
 
 <p></p>
 
