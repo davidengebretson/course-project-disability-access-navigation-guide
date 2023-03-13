@@ -111,7 +111,7 @@ This project is split into two teams with the following team members:
       <dd>Conducted evaluations with two users</dd>
       <dd>Documentation</dd>
       <dt>Nikita Rana</dt>
-      <dd>Implemented faliure page, conducted accessbility evaluation with participant, documentation</dd>
+      <dd>Implemented faliure page, worked on UI bugs,conducted accessbility evaluation with participant, documentation</dd>
       <dt>Thuan Nguyen</dt>
       <dd>Implement the About Page, add some CSS styling stuff</dd>
       <dd>Implement the Contact Page, get contact information from other member</dd>
