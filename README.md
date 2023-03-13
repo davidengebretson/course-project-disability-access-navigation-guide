@@ -19,7 +19,7 @@ This project is split into two teams with the following team members:
       <dt>Benjamin Clay</dt>
       <dd>Implemented Mid Campus information (Region buildings, pictures, alt-text, buttons, and samplefloor page)</dd>
       <dt>Ryan Rapoport</dt>
-      <dd>Implemented North Campus information</dd>
+      <dd>Implemented North Campus information (Region buildings, pictures, alt-text and buttons)</dd>
    </dl>
 
 <h5> Features Implemented R1: </h5>
