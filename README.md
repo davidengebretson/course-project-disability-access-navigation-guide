@@ -84,6 +84,8 @@ This project is split into two teams with the following team members:
       <dt>Nikita Rana</dt>
       <dd></dd>
       <dt>Thuan Nguyen</dt>
+      <dd>Create a survey form and getting the survey with WWU students for the functional design requirement</dd>
+      <dd>Design they layout for the About and Contact Page</dd>
       <dd></dd>
    </dl>
    
@@ -111,6 +113,9 @@ This project is split into two teams with the following team members:
       <dt>Nikita Rana</dt>
       <dd></dd>
       <dt>Thuan Nguyen</dt>
+      <dd>Implement the About Page, add some CSS styling stuff</dd>
+      <dd>Implement the Contact Page, get contact information from other member</dd>
+       <dd>Conducted evaluations with one new WWU student, and give suggesstion feature</dd>
       <dd></dd>
    </dl>
 
