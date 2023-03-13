@@ -65,20 +65,57 @@ This project is split into two teams with the following team members:
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
 </ul>
 
-<h5> Features Implemented: </h5>
+<h5> Features Implemented R1: </h5>
    <ul>
    <li> Home page with navbar, main content page for navigation, footer with external reference to GutHub project. </li>
    <li> Upload form to capture data from users. </li>
    <li> Server that facilitates navigation, error checking of uploaded data </li>
    <li> Placeholder pages for data upload success and failed attempts </li>
    </ul>
+   
+   <h5> Contributions R1<h5>
+   <dl>
+      <dt>Don Strong</dt>
+      <dd>Created template app for crowd sourcing and data visualization teams using HTML/CSS, Flask, Jinja.</dd>
+      <dd>Created upload form for data entries.</dd>
+      <dd>Created placeholder upload success and upload failure pages and implemented client and server side upload-requirements checking.</dd>
+      <dt>Katie Taylor</dt>
+      <dd></dd>
+      <dt>Nikita Rana</dt>
+      <dd></dd>
+      <dt>Thuan Nguyen</dt>
+      <dd></dd>
+   </dl>
+   
+   <h5> Features Implemented R2: </h5>
+   <ul>
+   <li> Connected Flask to MongoDB for data storage and retrieval. </li>
+   <li> Various UI bug fixes (inconsistent height with smaller screens, unresponsive buttons, etc).</li>
+   <li> Deployed app on AWS EC2 instance for public access. </li>
+   <li> Created local storage on server for file uploads. </li>
+   <li> Redesigned upload successful page to show user confirmation of uploaded data </li>
+   </ul>
+   
+      <h5> Contributions R2<h5>
+   <dl>
+      <dt>Don Strong</dt>
+      <dd>UI Bug fixes</dd>
+      <dd>Created/incorporated MongoDB with server for user uploads.</dd>
+      <dd>Added local storage on server for file uploads.</dd>
+      <dd>Updated upload success page to provide upload confirmation.</dd>
+      <dd>Configured/deployed on AWS for demo and public access.</dd>
+      <dt>Katie Taylor</dt>
+      <dd></dd>
+      <dt>Nikita Rana</dt>
+      <dd></dd>
+      <dt>Thuan Nguyen</dt>
+      <dd></dd>
+   </dl>
 
 <h5> To Do: </h5>
    <ul>
-   <li> Connect server to database to retain user uploads</li>
-   <li> Redesign data upload success and failure pages </li>
+   <li> Connect data visualization with latest changes to render data uploads.</li>
    </ul>
-
 <p>Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf"</p>
 
 <p></p>
