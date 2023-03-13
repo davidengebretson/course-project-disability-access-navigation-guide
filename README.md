@@ -76,17 +76,17 @@ This project is split into two teams with the following team members:
    <h5> Contributions R1<h5>
    <dl>
       <dt>Don Strong</dt>
-      <dd>Created template app for crowd sourcing and data visualization teams using HTML/CSS, Flask, Jinja.</dd>
-      <dd>Created upload form for data entries.</dd>
-      <dd>Created placeholder upload success and upload failure pages and implemented client and server side upload-requirements checking.</dd>
+         <dd>Created template app for crowd sourcing and data visualization teams using HTML/CSS, Flask, Jinja.</dd>
+         <dd>Created upload form for data entries.</dd>
+         <dd>Created placeholder upload success and upload failure pages and implemented client and server side upload-requirements checking.</dd>
       <dt>Katie Taylor</dt>
       <dd></dd>
       <dt>Nikita Rana</dt>
       <dd></dd>
       <dt>Thuan Nguyen</dt>
-      <dd>Create a survey form and getting the survey with WWU students for the functional design requirement</dd>
-      <dd>Design they layout for the About and Contact Page</dd>
-      <dd></dd>
+         <dd>Create a survey form and getting the survey with WWU students for the functional design requirement</dd>
+         <dd>Design they layout for the About and Contact Page</dd>
+     
    </dl>
    
    <h5> Features Implemented R2: </h5>
