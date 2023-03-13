@@ -87,9 +87,9 @@ This project is split into two teams with the following team members:
          <dd>Create a survey form and getting the survey with WWU students for the functional design requirement</dd>
          <dd>Design they layout for the About and Contact Page</dd>
      
+        <h5> Features Implemented R2: </h5>
+     
    </dl>
-   
-   <h5> Features Implemented R2: </h5>
    <ul>
    <li> Connected Flask to MongoDB for data storage and retrieval. </li>
    <li> Various UI bug fixes (inconsistent height with smaller screens, unresponsive buttons, etc).</li>
