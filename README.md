@@ -1,28 +1,28 @@
 CSCI 597T/497T -- WWU
 Winter 2023
 
-<h1> Disability Access Navigation Guide Group </h1>
+# Disability Access Navigation Guide  
 
-This project is split into two teams with the following team members:
+##This project is split into two teams with the following team members:
 
-<h2> 1) Data Visualization </h2>
+###1) Data Visualization
    <ul>
    <li> Emma Geary, gearye2@wwu.edu </li>
    <li>Benjamin Clay, clayb@wwu.edu </li>
    <li> Ryan Rapoport, rapopor@wwu.edu </li>
    </ul>
 
-<h5> Contributions R1<h5>
+###Contributions R1
    <dl>
       <dt>Emma Geary</dt>
       <dd>Created filter.css, implemented building lists, implemented sample classroom, implemented all South Campus buildings and related content</dd>
       <dt>Benjamin Clay</dt>
-      <dd>Implemented Mid Campus information (Region buildings, pictures, alt-text, buttons, and samplefloor page)</dd>
+      <dd>Implemented Mid Campus information (Region buildings, pictures, alt-text, buttons, and SampleFloor page)</dd>
       <dt>Ryan Rapoport</dt>
       <dd>Implemented North Campus information (Region buildings, pictures, alt-text and buttons)</dd>
    </dl>
 
-<h5> Features Implemented R1: </h5>
+###Features Implemented R1:
    <ul>
    <li> Filtering done by region and building
    <li> All pages for buildings include images (placeholders in some cases)
@@ -30,7 +30,7 @@ This project is split into two teams with the following team members:
    <li> Sample classroom information page created
    </ul>
 
-<h5> Contributions R2<h5>
+###Contributions R2
    <dl>
       <dt>Emma Geary</dt>https://dl.acm.org/doi/10.1145/2596695.2596715
       <dd>Adding buildings accessibility information, finished SMATE and CF, added floorplans to remaining buildings, edited some aesthetic issues, fixed alt text, fixed page headers</dd>
@@ -40,7 +40,7 @@ This project is split into two teams with the following team members:
       <dd>Implemented Academic West classrooms</dd>
    </dl>
 
-<h5> Features Implemented R2: </h5>
+###Features Implemented R2:
    <ul>
    <li> Finished Communications Facility, Academic West, SMATE
    <li> Bond Hall has sample classrooms for all classrooms
@@ -49,15 +49,13 @@ This project is split into two teams with the following team members:
    <li> Every floor of every building has a floorplan
    </ul>
 
-<h5> To Do: </h5>
+##To Do:
    <ul>
-   <li> Link crowdsourcing functionality to data visualization portion
+   <li> Link crowd sourcing functionality to data visualization portion
    <li> Add classrooms to remaining buildings
    </ul>
 
-<p></p>
-
-<h2> 2) Crowd Sourcing </h2>
+##Crowd Sourcing
 <ul>
    <li> Don Strong - strongd5@wwu.edu </li>
    <li> Katie Taylor - taylo230@wwu.edu </li>
@@ -65,15 +63,15 @@ This project is split into two teams with the following team members:
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
 </ul>
 
-<h5> Features Implemented R1: </h5>
+###Features Implemented R1:
    <ul>
-   <li> Home page with navbar, main content page for navigation, footer with external reference to GutHub project. </li>
+   <li> Home page with navbar, main content page for navigation, footer with external reference to Github project. </li>
    <li> Upload form to capture data from users. </li>
    <li> Server that facilitates navigation, error checking of uploaded data </li>
    <li> Placeholder pages for data upload success and failed attempts </li>
    </ul>
    
-   <h5> Contributions R1<h5>
+   ###Contributions R1
    <dl>
       <dt>Don Strong</dt>
          <dd>Created template app for crowd sourcing and data visualization teams using HTML/CSS, Flask, Jinja.</dd>
@@ -84,11 +82,11 @@ This project is split into two teams with the following team members:
       <dt>Nikita Rana</dt>
       <dd>Worked on success and faliure pages, helped design layout features, made questions for survey, documentation</dd>
       <dt>Thuan Nguyen</dt>
-         <dd>Create a survey form and getting the survey with WWU students for the functional design requirement</dd>
-         <dd>Design they layout for the About and Contact Page</dd>
+         <dd>Created a survey form and implemented the survey with WWU students for the functional design requirement</dd>
+         <dd>Designed the layout for the About and Contact Page</dd>
    </dl>
    
-   <h5> Features Implemented R2: </h5>
+   ###Features Implemented R2:
    <ul>
    <li> Connected Flask to MongoDB for data storage and retrieval. </li>
    <li> Various UI bug fixes (inconsistent height with smaller screens, unresponsive buttons, etc).</li>
@@ -97,7 +95,7 @@ This project is split into two teams with the following team members:
    <li> Redesigned upload successful page to show user confirmation of uploaded data </li>
    </ul>
    
-   <h5>Contributions R2</h5>
+   ##Contributions R2
    <dl>
       <dt>Don Strong</dt>
       <dd>UI Bug fixes</dd>
@@ -110,32 +108,31 @@ This project is split into two teams with the following team members:
       <dd>Conducted evaluations with two users</dd>
       <dd>Documentation</dd>
       <dt>Nikita Rana</dt>
-      <dd>Implemented faliure page, worked on UI bugs,conducted accessbility evaluation with participant, documentation</dd>
+      <dd>Implemented faliure page, worked on UI bugs,conducted accessibility evaluation with participant, documentation</dd>
       <dt>Thuan Nguyen</dt>
-      <dd>Implement the About Page, add some CSS styling stuff</dd>
-      <dd>Implement the Contact Page, get contact information from other member</dd>
-       <dd>Conducted evaluations with one new WWU student, and give suggesstion feature</dd>
+      <dd>Implemented the About Page, added some CSS styling</dd>
+      <dd>Implemented the Contact Page. Received contact information from other members</dd>
+       <dd>Conducted evaluations with one new WWU student, and gave suggestion features</dd>
       <dd></dd>
    </dl>
 
-<h5> To Do: </h5>
+##To Do:
    <ul>
    <li> Connect data visualization with latest changes to render data uploads.</li>
    </ul>
-<p>Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf" and "Disability Access Navigation Guide R2 Prototype -- Crowdsourcing Team.pdf"</p>
+Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf" and "Disability Access Navigation Guide R2 Prototype -- Crowdsourcing Team.pdf"
 
-<p></p>
-
-<h4> Dependencies </h4>
+##Dependencies
 <ul>
    <li> Python </li>
    <li> Flask </li>
+   <li>MongoDB</li>
 </ul>
 
-<h4> To run this app: </h4>
+##To run this app:
 <ol>
    <li> Clone repo to local directory </li>
-   <li> cd course-project-disability-access-navigation-guide </li>
+   <li> cd to the directory where you cloned the repository</li>
    <li> flask run </li>
    <li> Open your web browser and navigate to localhost:5000 </li>
 </ol>
