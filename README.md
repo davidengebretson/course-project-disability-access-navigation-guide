@@ -6,13 +6,10 @@ Winter 2023
 ## This project is split into two teams with the following team members:
 
 ### 1) Data Visualization
-   <ul>
-   <li> Emma Geary, gearye2@wwu.edu </li>
-   <li>Benjamin Clay, clayb@wwu.edu </li>
-   <li> Ryan Rapoport, rapopor@wwu.edu </li>
-   </ul>
-
-### Contributions R1
+   - Emma Geary, gearye2@wwu.edu
+   - Benjamin Clay, clayb@wwu.edu
+   - Ryan Rapoport, rapopor@wwu.edu
+   ### Contributions R1
    <dl>
       <dt>Emma Geary</dt>
       <dd>Created filter.css, implemented building lists, implemented sample classroom, implemented all South Campus buildings and related content</dd>
