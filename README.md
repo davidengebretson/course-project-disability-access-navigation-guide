@@ -3,16 +3,16 @@ Winter 2023
 
 # Disability Access Navigation Guide  
 
-##This project is split into two teams with the following team members:
+## This project is split into two teams with the following team members:
 
-###1) Data Visualization
+### 1) Data Visualization
    <ul>
    <li> Emma Geary, gearye2@wwu.edu </li>
    <li>Benjamin Clay, clayb@wwu.edu </li>
    <li> Ryan Rapoport, rapopor@wwu.edu </li>
    </ul>
 
-###Contributions R1
+### Contributions R1
    <dl>
       <dt>Emma Geary</dt>
       <dd>Created filter.css, implemented building lists, implemented sample classroom, implemented all South Campus buildings and related content</dd>
@@ -22,7 +22,7 @@ Winter 2023
       <dd>Implemented North Campus information (Region buildings, pictures, alt-text and buttons)</dd>
    </dl>
 
-###Features Implemented R1:
+### Features Implemented R1:
    <ul>
    <li> Filtering done by region and building
    <li> All pages for buildings include images (placeholders in some cases)
@@ -30,7 +30,7 @@ Winter 2023
    <li> Sample classroom information page created
    </ul>
 
-###Contributions R2
+### Contributions R2
    <dl>
       <dt>Emma Geary</dt>https://dl.acm.org/doi/10.1145/2596695.2596715
       <dd>Adding buildings accessibility information, finished SMATE and CF, added floorplans to remaining buildings, edited some aesthetic issues, fixed alt text, fixed page headers</dd>
@@ -40,7 +40,7 @@ Winter 2023
       <dd>Implemented Academic West classrooms</dd>
    </dl>
 
-###Features Implemented R2:
+### Features Implemented R2:
    <ul>
    <li> Finished Communications Facility, Academic West, SMATE
    <li> Bond Hall has sample classrooms for all classrooms
@@ -49,13 +49,13 @@ Winter 2023
    <li> Every floor of every building has a floorplan
    </ul>
 
-##To Do:
+## To Do:
    <ul>
    <li> Link crowd sourcing functionality to data visualization portion
    <li> Add classrooms to remaining buildings
    </ul>
 
-##Crowd Sourcing
+## Crowd Sourcing
 <ul>
    <li> Don Strong - strongd5@wwu.edu </li>
    <li> Katie Taylor - taylo230@wwu.edu </li>
@@ -63,7 +63,7 @@ Winter 2023
    <li> Thuan Nguyen- nguye404@wwu.edu </li>
 </ul>
 
-###Features Implemented R1:
+### Features Implemented R1:
    <ul>
    <li> Home page with navbar, main content page for navigation, footer with external reference to Github project. </li>
    <li> Upload form to capture data from users. </li>
@@ -71,7 +71,7 @@ Winter 2023
    <li> Placeholder pages for data upload success and failed attempts </li>
    </ul>
    
-   ###Contributions R1
+   ### Contributions R1
    <dl>
       <dt>Don Strong</dt>
          <dd>Created template app for crowd sourcing and data visualization teams using HTML/CSS, Flask, Jinja.</dd>
@@ -86,7 +86,7 @@ Winter 2023
          <dd>Designed the layout for the About and Contact Page</dd>
    </dl>
    
-   ###Features Implemented R2:
+   ### Features Implemented R2:
    <ul>
    <li> Connected Flask to MongoDB for data storage and retrieval. </li>
    <li> Various UI bug fixes (inconsistent height with smaller screens, unresponsive buttons, etc).</li>
@@ -95,7 +95,7 @@ Winter 2023
    <li> Redesigned upload successful page to show user confirmation of uploaded data </li>
    </ul>
    
-   ##Contributions R2
+   ## Contributions R2
    <dl>
       <dt>Don Strong</dt>
       <dd>UI Bug fixes</dd>
@@ -116,20 +116,20 @@ Winter 2023
       <dd></dd>
    </dl>
 
-##To Do:
+## To Do:
    <ul>
    <li> Connect data visualization with latest changes to render data uploads.</li>
    </ul>
 Additional details regarding progress and design decisions/motivation can be found in "Disability Access Navigation Guide R1 Prototype -- Crowdsourcing Team.pdf" and "Disability Access Navigation Guide R2 Prototype -- Crowdsourcing Team.pdf"
 
-##Dependencies
+## Dependencies
 <ul>
    <li> Python </li>
    <li> Flask </li>
    <li>MongoDB</li>
 </ul>
 
-##To run this app:
+## To run this app:
 <ol>
    <li> Clone repo to local directory </li>
    <li> cd to the directory where you cloned the repository</li>
