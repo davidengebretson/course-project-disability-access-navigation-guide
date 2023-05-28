@@ -10,9 +10,11 @@
         
     {% endblock %}
 </head>
-<body>
+
+    <header>
     <div class="header-nav">
-        <a href="https://www.wwu.edu"><img src="/static/images/thumbnail_Outlook-Logo, comp.png" alt="Western Washington University logo with slogan: make waves."></a>
+        <a href="https://www.wwu.edu"><img src="/static/images/thumbnail_Outlook-Logo, comp.png" alt="Western Washington University logo - Make Waves!"></a>
+<nav aria-label="DANG">
         <ul class = "nav-links">
             <a href="/"><li>Home</li></a>
             <a href="about"><li>About</li></a>
@@ -22,16 +24,23 @@
             
         </ul>
     </div>
+</nav>
+    </header
+    <body>
+    <main>
     <div class="content">
         {% block content %}
         
         {% endblock %}
     </div>
-    <div class="footer">
+    </main
+    <footer aria-label=""DANG">
+            <div class="footer">
+                <h2>Disability Access Navigation Guide</h2>
         <a href="https://github.com/Teaching-Accessibility/course-project-disability-access-navigation-guide">
-            <img src="/static/images/github-mark-white.png" alt="Github logo with transparent background" >
-        </a>
-        Disability Access Navigation Guide
-    </div>
+            <img src="/static/images/github-mark-white.png" alt="Teaching Accessibility at Western Washington University"></a>
+            </div>
+            </footer
+            {% endblock %}
 </body>
 </html>

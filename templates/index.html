@@ -1,29 +1,35 @@
 {% extends "layout.html" %} 
 
 {% block header %}
-<title>Disability Access Navigation Guide - Home</title>
+<title>Home | Disability Access Navigation Guide</title>
 <link rel="stylesheet" href="../static/stylesheets/index.css">
         
 {% endblock %}
 
 {% block content %}
+
 <div class="welcome-banner">
     <h1>Disability Access Navigation Guide</h1>
     <h2>Welcome</h2>
-    <p>We are a group of computer science students at WWU who focused on accessible computing. Please contribute to our project by uploading accessibility related information for buildings and walkways throughout campus.</p>
+    <p>We are a group of computer science students at Western Washington University (WWU) who focus on accessible computing. Please contribute to our project by uploading accessibility related information for buildings and walkways throughout campus.</p>
 </div>
-
+<h3> Upload Data</h3>
 <div class="button-container">
     <a class="button-link" href="upload">
         <div class="button-text">
             Upload Data
         </div>
     </a>
+    <h3>Current Map</h3>
     <a class="button-link" href="map">
         <div class="button-text">
             Campus Map
         </div>
     </a>
 </div>
-
 {% endblock %}
+
+<footter aria-label="DANG">
+    <p> this is where the footer should go (index.html)</p>
+</footter>
+

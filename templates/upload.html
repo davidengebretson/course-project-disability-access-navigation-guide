@@ -1,19 +1,20 @@
 {% extends "layout.html" %} 
 
 {% block header %}
-<title>Disability Access Navigation Guide - Upload</title>
+<title>Upload | Disability Access Navigation Guide</title>
 <link rel="stylesheet" href="../static/stylesheets/upload.css">
         
 {% endblock %}
 
 {% block content %}
-
+<h1Please Upload Relevant Information</h1>
         <div class="upload-container">
             <div class="upload-box">
+                <h2>Current Date</h2>
                 <form action="upload_status" method="POST" enctype="multipart/form-data">
                     <label for="entry-date">Entry Date:</label>
-                    <input type="date" id="entry-date" name="entry-date" autofocus required>
-
+                    <input type="date" id="entry-date" name="entry-date">
+<h2>Campus Location</h2>
                     <label for="entry-date">Campus Location:</label>
                     <select name="location" required>
                         {% for location in locations %}
@@ -21,10 +22,12 @@
                             </option>
                         {% endfor %}
                     </select>
-                       
+                   <h2>Submit a Picture</h2>    
                     <label for="file">Screenshot (Supported types: JPG, PNG, JPEG): </label>
                     <input class="custom-file-upload" type="file" id="file" name="file" required>
+                    <h3>Please Provide a Detailed Description of your Image</h3>
                     <label for="desc">Description:</label>
+<h2>Additional Details</h2>
                     <input type="textarea" id="desc" name="desc" placeholder="Enter any additional details here..." required>
 
                     <input type="submit"></button>
@@ -32,7 +35,5 @@
                 </form>
             </div>
         </div>
-
-
-
+ 
 {% endblock %}

@@ -1,19 +1,23 @@
 {% extends "layout.html" %}
 
 {% block header %}
-<title>Disability Access Navigation Guide - Upload Success</title>
+<title>Upload Success | Disability Access Navigation Guide</title>
         
 {% endblock %}
 
 {% block content %}
-<div class="result"><h1>Your upload was successful.</h1>
-    <h2>Data:</h2>
+<div class="result">
+    <h1>Your upload was successful.</h1>
+    <h2>Verify Your Data:</h2>
     <ul>
         {% for key in entry %}
             <li>{{ key + ":" + entry[key]}}</li>
         {% endfor %}
-    </ul>
-    <img src="{{ file }}" alt="{{ alt }}" srcset="" style="max-width: 15%">
+    
+    <img src="{{ file }}" alt="Enter custom alt text below" srcset="" style="max-width: 15%">
+    <h2>Enter Custom Alt Text for Submitted Image</h2>
+    <p>Will have to work through the logic for this addition.</p>
+    </ul
 </div>
 
 {% endblock %}
