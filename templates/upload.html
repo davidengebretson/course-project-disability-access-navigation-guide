@@ -3,19 +3,19 @@
 {% block header %}
 <title>Upload | Disability Access Navigation Guide</title>
 <link rel="stylesheet" href="../static/stylesheets/upload.css">
-        
 {% endblock %}
 
 {% block content %}
-<h1Please Upload Relevant Information</h1>
+<h1>Please Upload Relevant Information</h1>
         <div class="upload-container">
             <div class="upload-box">
-                <h2>Current Date</h2>
+
                 <form action="upload_status" method="POST" enctype="multipart/form-data">
-                    <label for="entry-date">Entry Date:</label>
+                    <h2>Current Date</h2>
+                    <label for="entry-date">Current Date and Time :</label>
                     <input type="date" id="entry-date" name="entry-date">
 <h2>Campus Location</h2>
-                    <label for="entry-date">Campus Location:</label>
+                    <label for="location">Campus Location:</label>
                     <select name="location" required>
                         {% for location in locations %}
                             <option> {{ location }}
@@ -26,9 +26,13 @@
                     <label for="file">Screenshot (Supported types: JPG, PNG, JPEG): </label>
                     <input class="custom-file-upload" type="file" id="file" name="file" required>
                     <h3>Please Provide a Detailed Description of your Image</h3>
-                    <label for="desc">Description:</label>
+                    <label for="AltText">Descriptive text for image :</label>
+                    <input type="textarea" id="AltText" name="AltText" placeholder="Descriptive alt text for uploaded image" required>
+
 <h2>Additional Details</h2>
-                    <input type="textarea" id="desc" name="desc" placeholder="Enter any additional details here..." required>
+<label for="desc">Descriptive Information regarding location :</label>
+<input type="textarea" id="desc" name="desc" placeholder="Enter any additional details here..." required>
+                    
 
                     <input type="submit"></button>
 
